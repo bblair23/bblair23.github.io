@@ -1,46 +1,70 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* {box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
+  padding: 0;
+  max-width: 90%;
+  max-height: 100%;
+  text-align: center;
+  line-height: 30px;
   font-size: 16px;
   /* Declare the base font-family - from google font api or other */
+  font-family: 'PT Sans', sans-serif;
+
 }
 
 header, nav, main, footer {}
 
 header { }
 header img { }
-header .subheading {}
+header .subheading {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
 
 nav {}
-nav button {}
-nav ul{}
+nav button {
+  display: block;
+  position: absolute;
+
+}
+nav ul{
+  display:flex;
+  flex-wrap: nowrap;
+}
 nav ul li a {}
 nav ul li.active a {}
 nav ul li a:hover {}
 
-main { }
+main {
+    display: block;
+    margin-left: 1rem;
+ }
 main h2 { text-align: center;
           margin: 15px auto;
           padding: 5px;
           }
- .weathersummary {   
-            display: grid;
+ section.weathersummary {   
+            display: table;
             position: absolute;
-            top: 48%;
+            top: 25em;
             left: 5%;
             margin: 1rem 0 1rem 2rem;
             width: auto;
             padding: 1.2rem;
             color: white;
-            background-color: rgb(0, 60, 255, .5);
-            border: 1pt solid darkblue;
+            background-color: rgba(73, 31, 226, 0.7);
+            border: 2pt solid darkblue;
             font-size: .9rem;
         }
                             
 main figure {
-    margin: 0 auto .2rem 2%; width: 90%;
+    margin: 0 auto .2rem 2%; width: 100%;
     margin-left: auto;
     margin-right: auto;
  }      
