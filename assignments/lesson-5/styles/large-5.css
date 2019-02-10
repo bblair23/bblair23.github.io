@@ -8,7 +8,6 @@ nav ul.hide{
 
 ul {
     list-style-type: none;
-    padding: auto;
     overflow: hidden;
     background-color: rgb(7, 2, 82);
     flex-wrap: nowrap;

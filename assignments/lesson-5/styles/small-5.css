@@ -145,7 +145,7 @@ footer aside {
   margin-bottom: 0; 
   max-width: 700px;
   position: relative;
-  display: inline block;
+  display: inline-block;
   background: rgb(143, 173, 236);
   border: 2px solid rgb(2, 2, 48);
 }
