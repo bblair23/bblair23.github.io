@@ -36,7 +36,7 @@ li a:hover:not(.active) {
     background-color: rgb(7, 2, 82);
 }
 
-main {max-width: 850px; margin:0 auto;}
+main {max-width: 950px; margin:0 auto;}
     
 h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
    
