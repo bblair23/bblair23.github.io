@@ -9,7 +9,9 @@ if(dd<10) {
 
 if(mm<10) {
     mm = '0'+mm
+    var months = ["January","February","March","April","May","June",
+    "July","August","September","October","November","December"];
 } 
 
-today = mm + '/' + dd + '/' + yyyy;
+today = 'months' + '/' + dd + '/' + yyyy;
 document.write(today);
