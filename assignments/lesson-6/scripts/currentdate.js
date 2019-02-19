@@ -13,5 +13,5 @@ if(mm<10) {
     "July","August","September","October","November","December"];
 } 
 
-today = 'months' + '/' + dd + '/' + yyyy;
+today = months + '/' + dd + '/' + yyyy;
 document.write(today);
