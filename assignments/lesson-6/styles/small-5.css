@@ -37,11 +37,6 @@ header>img {
 .headertext h1 {
   font-size: 3rem;
 }
-nav {
-  background-color: rgb(47, 0, 255);
-  text-align: center;
-  font-family: sans-serif;
-}
 
 .subheading {
   font-size: 1.1rem;
@@ -81,21 +76,31 @@ header .subheading {
   justify-content: center;
 }
 
-nav {}
 nav button {
-  display: block;
-  position: absolute;
+  display:none;
+  }
 
+nav {
+  background-color: darkblue;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
 }
+
 nav ul{
-  display: flex;
-  flex-wrap: nowrap;
+  padding: 0;
   margin: 0;
-  justify-content: center;
-}
-nav ul li a {}
-nav ul li.active a {}
-nav ul li a:hover {}
+ }
+
+nav li {list-style-type: none;}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: .2em 0;
+  text-decoration: none;
+ }
+nav ul li a:hover { background-color: darkcyan;}
 
 main {max-width: 850px; margin:0 auto;}
     

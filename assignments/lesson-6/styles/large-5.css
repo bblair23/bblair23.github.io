@@ -6,22 +6,28 @@ nav ul.hide{
     display: flex;
 }
 
+nav {
+  font-size: 16px;
+}
+
 ul {
+    display: flex;
     list-style-type: none;
     overflow: hidden;
+    justify-content: center;
     background-color: rgb(7, 2, 82);
     flex-wrap: nowrap;
-}
+    margin: ;
+  }
 
 li {
     position: relative;
     float: left;
+    margin: 0;
 }
 
 li a {
-    display: block;
     color: white;
-    text-align: center;
     margin: auto;
     padding: 12px 1.5rem;
     text-decoration: none;
