@@ -1,0 +1,165 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+
+body {
+  padding: 0;
+  max-width: 90%;
+  max-height: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+header {
+  margin-top: 15px;
+  background-color: rgba(38, 0, 255, 1);
+  text-align: center;
+  padding: .3rem;
+  color:whitesmoke;
+}
+
+header>img {
+  width:140px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.headertext {
+  display: inline-block;
+  margin: 1rem 0 1rem 2rem;
+  padding: 1.4rem;
+  vertical-align: middle;
+}
+
+.headertext h1 {
+  font-size: 3rem;
+}
+nav {
+  background-color: rgb(47, 0, 255);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.currentconditions {
+  display: inline-block;
+  margin: 1rem 0 1rem 2rem;
+  padding: 1.2rem;
+  vertical-align: middle;
+  color: white;
+  background-color: rgb(22, 136, 189);
+  border: 1pt solid darkblue;
+  font-size: 1rem;
+}
+
+.currentconditions p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.currentconditions>img {
+   display: inline-block;
+   padding: 4px;
+   width: 75px;
+   height: auto;
+   vertical-align: middle;
+
+}
+
+header { }
+header img { }
+header .subheading {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+nav {}
+nav button {
+  display: block;
+  position: absolute;
+
+}
+nav ul{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  justify-content: center;
+}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+main {max-width: 850px; margin:0 auto;}
+    
+    h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
+       
+    .herodiv {margin: 5px auto; position: relative;}
+  
+    img.town {width: 100%; height: auto;}   
+
+    .weathersummary {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        background-color: rgba(73, 31, 226, 0.8);
+        border: 1px solid rgb(17, 17, 20);
+        padding: 15px;
+        box-shadow: 0 4px 15px #fff;
+    }                      
+    .weathersummary h3 { font-size: 1.2em; padding-bottom: 4px; border-bottom: 2px solid rgb(24, 4, 46);}
+    .weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding:-bottom 4px; margin:0;}
+
+section.forecast {
+     display: none;
+ }
+
+article {
+    display: inline-block;
+    margin: 10px;
+    background:  rgb(218, 215, 215);
+    border: 1px solid rgb(17, 17, 20);
+    box-shadow: 0 4px 15px blue;
+  }
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  max-width: 400px; /* fill the page in the small/phone view */
+  margin: 5px;
+}
+
+footer {
+  
+   }
+img.map {
+  margin: 15px;
+}
+footer aside { 
+  margin: 15px auto;
+  margin-bottom: 0; 
+  max-width: 700px;
+  position: relative;
+  display: inline-block;
+  background: rgb(143, 173, 236);
+  border: 2px solid rgb(2, 2, 48);
+}
+
+footer>p {
+  margin-top: 0;
+  margin-left:auto; 
+  margin-right:auto;
+  max-width: 700px;
+  display: block;
+  background: rgb(1, 25, 75);
+  text-align: center;
+  color:white;
+  border: 2px solid rgb(2, 2, 48);
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
