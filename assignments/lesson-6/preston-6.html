@@ -39,8 +39,17 @@
     
   <main>
     <h2>Preston Idaho</h2>
-    <section class= "herodiv">
-      <img class="town" src= "images/town.jpeg" alt="Town Picture">
+    <section class= "herodiv">       
+      <img class="town" 
+        srcset= "images/citimage.jpg 320w,
+            images/citimage.jpg 480w,
+            images/citimage.jpg 800w"
+        sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+        src="images/town.jpg" alt="Town Picture">
+                    
+      
       <div class="weathersummary">
       <h3>Weather Summary</h3>
             <p>Currently: <span></span>Sunny</p>
