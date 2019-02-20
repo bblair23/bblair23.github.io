@@ -22,7 +22,7 @@ header {
 }
 
 header>img {
-  width:140px;
+  width: 140px;
   height: auto;
   vertical-align: middle;
 }
@@ -30,7 +30,7 @@ header>img {
 .headertext {
   display: inline-block;
   margin: 1rem 0 1rem 2rem;
-  padding: 1.4rem;
+  padding: 1.2rem;
   vertical-align: middle;
 }
 
@@ -128,14 +128,15 @@ section.forecast {
 
 article {
     display: inline-block;
-    margin: 10px;
+    padding: 5px;
+    margin: 15px auto;
     background:  rgb(218, 215, 215);
     border: 1px solid rgb(17, 17, 20);
     box-shadow: 0 4px 15px blue;
   }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  max-width: 340px; /* fill the page in the small/phone view */
+  max-width: 300px; /* fill the page in the small/phone view */
   margin: 5px;
 }
 
@@ -143,7 +144,7 @@ footer {
   
    }
 img.map {
-  margin: 15px;
+  margin: 15px auto;
 }
 footer aside { 
   margin: 15px auto;
