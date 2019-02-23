@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 55em) {
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 nav button { display: none; }  /* hamburger button does not need to be shown */ 
     
@@ -17,7 +17,8 @@ ul {
     justify-content: center;
     background-color: rgb(7, 2, 82);
     flex-wrap: nowrap;
-}
+    margin: 0;
+  }
 
 li {
     position: relative;
@@ -42,6 +43,10 @@ li a:hover:not(.active) {
 }
 
 main {max-width: 950px; margin:0 auto;}
+
+section.gallery {
+  grid-template-columns: repeat(3, 1fr)
+      }
     
 h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
    
@@ -53,21 +58,33 @@ img.town {width: 100%; height: auto;}
     position: absolute;
     left: 15px;
     top: 15px;
-    background-color: rgba(73, 31, 226, 0.8);
+    background-color: rgba(35, 13, 116, 0.87);
     border: 1px solid rgb(17, 17, 20);
     padding: 15px;
     box-shadow: 0 4px 15px #fff;
 }                      
-.weathersummary h3 { font-size: 1.3em; padding-bottom: 4px; border-bottom: 2px solid rgb(24, 4, 46);}
-.weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding:-bottom 4px; margin:0;}
+.weathersummary h3 { font-size: 1.3em; padding-bottom: 1px; border-bottom: 2px solid rgb(182, 180, 184);}
+.weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding:-bottom 2px; margin:0;}
 
   
   section.forecast { 
     display: inline-block; 
-    border: 1px solid blue;
+    background-color: rgb(35, 115, 236);
+    border: 1px solid rgb(2, 2, 56);
     margin: 15px;
+    padding: 5px;
     align-content: center;
-    }  /* show the 10-day forecast with the large view */
+  }  /* show the 5-day forecast with the large view */
+  
+  section.forecast h3 {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  section.forecast thead {
+    color: white;
+    background-color: darkblue;
+  }
   
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
