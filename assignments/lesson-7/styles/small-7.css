@@ -13,11 +13,14 @@ body {
 }
 
 header {
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
   margin-top: 15px;
   background-color: rgba(38, 0, 255, 1);
   text-align: center;
   padding: .3rem;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
 header>img {
