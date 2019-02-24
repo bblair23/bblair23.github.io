@@ -42,11 +42,15 @@ li a:hover:not(.active) {
     background-color: rgb(7, 2, 82);
 }
 
-main {max-width: 950px; margin:0 auto;}
+main {max-width: 1080px; margin:0 auto;}
 
 section.gallery {
-  grid-template-columns: repeat(3, 1fr)
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
       }
+section.gallery figure:hover {
+  box-shadow: 4px 4px 6px rgb(17, 4, 48); 
+}
     
 h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
    
@@ -66,13 +70,12 @@ img.town {width: 100%; height: auto;}
 .weathersummary h3 { font-size: 1.3em; padding-bottom: 1px; border-bottom: 2px solid rgb(182, 180, 184);}
 .weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding:-bottom 2px; margin:0;}
 
-  
   section.forecast { 
     display: inline-block; 
     background-color: rgb(35, 115, 236);
     border: 1px solid rgb(2, 2, 56);
-    margin: 15px;
-    padding: 5px;
+    margin: 10px;
+    padding: 25px;
     align-content: center;
   }  /* show the 5-day forecast with the large view */
   
@@ -84,6 +87,8 @@ img.town {width: 100%; height: auto;}
   section.forecast thead {
     color: white;
     background-color: darkblue;
+    border: 2px black;
+    margin: 10px;
   }
   
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */

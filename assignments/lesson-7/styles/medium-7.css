@@ -1,5 +1,51 @@
-@media only screen and (min-width: 30em) {
-    section.gallery {
-        grid-template-columns: repeat(2, 1fr)
-            }
-        }
+@media only screen and (min-width: 45em) {    
+
+nav button { display: none; }  /* hamburger button does not need to be shown */ 
+    
+nav ul.hide{
+    display: flex;
+}
+
+nav {
+  font-size: 16px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: center;
+    background-color: rgb(7, 2, 82);
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+
+li {
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+li a {
+    color: white;
+    margin: auto;
+    padding: 12px 1.5rem;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(47, 0, 255);
+}
+
+.active {
+    background-color: rgb(7, 2, 82);
+}         
+              
+ section.gallery {
+    grid-template-columns: repeat(2, 1fr)
+    }
+ 
+}
+
+        
