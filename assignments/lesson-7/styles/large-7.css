@@ -45,9 +45,10 @@ li a:hover:not(.active) {
 main {max-width: 1080px; margin:0 auto;}
 
 section.gallery {
+  max-width:1080px;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2%;
       }
+
 section.gallery figure:hover {
   box-shadow: 4px 4px 6px rgb(17, 4, 48); 
 }
