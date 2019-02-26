@@ -137,6 +137,7 @@ article {
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   max-width: 380px; /* fill the page in the small/phone view */
   margin: 5px;
+  float: top;
 }
 
 section.gallery {
