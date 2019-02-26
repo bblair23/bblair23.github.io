@@ -134,11 +134,15 @@ article {
     box-shadow: 0 4px 15px blue;
   }
 
+  article h3 {
+    font-size: 1.4rem;
+  }
+
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  /* fill the page in the small/phone view */
-  max-width: 90%;
-  margin: 15px;
-}
+    /* fill the page in the small/phone view */
+    max-width: 90%;
+    margin: 15px;
+  }
 
 section.gallery {
   display: grid;
