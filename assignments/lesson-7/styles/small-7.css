@@ -30,7 +30,7 @@ header>img {
 .headertext {
   display: inline-block;
   color: rgb(253, 252, 162);
-  margin: 1rem 1rem 1rem 2rem;
+  margin: 1rem;
   padding: 1.2rem;
   vertical-align: middle;
   font-family: 'PT Sans', sans-serif;
@@ -39,7 +39,8 @@ header>img {
 
 .headertext h1 {
   font-size: 3rem;
-  margin: 14px;
+  line-height: 2.5rem;
+  margin: 10px;
   padding: 7px;
 }  
 
@@ -51,8 +52,8 @@ header>img {
 
 .currentconditions {
   display: inline-block;
-  margin: 1rem 1rem 1rem 2rem;
-  padding: 1.2rem;
+  margin: 1rem;;
+  padding: 1rem;
   vertical-align: middle;
   color: white;
   background-color: rgb(22, 136, 189);
