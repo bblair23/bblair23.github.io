@@ -37,8 +37,9 @@ header>img {
 }
 
 .headertext h1 {
-    font-size: 3rem;
-    margin: 12px;
+  font-size: 3rem;
+  margin: 14px;
+  padding: 7px;
 }  
 
 .subheading {
