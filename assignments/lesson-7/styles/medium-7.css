@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45em) {    
+@media only screen and (min-width: 40em) {    
 
 nav button { display: none; }  /* hamburger button does not need to be shown */ 
     
@@ -42,10 +42,12 @@ li a:hover:not(.active) {
     background-color: rgb(7, 2, 82);
 }         
               
- section.gallery {
+section.gallery {
     grid-template-columns: repeat(2, 1fr)
     }
- 
+
+article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+    
 }
 
         
