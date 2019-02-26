@@ -91,6 +91,6 @@ img.town {width: 100%; height: auto;}
     margin: 10px;
   }
   
-  article p.town-article img { width: 100%; float:right; }  /* responsive images */
+  article p.town-article img { margin: 15px; max-width: 60%; float:right; }  /* responsive images */
 
 }
