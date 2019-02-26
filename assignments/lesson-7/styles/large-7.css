@@ -42,10 +42,9 @@ li a:hover:not(.active) {
     background-color: rgb(7, 2, 82);
 }
 
-main {max-width: 1080px; margin:0 auto;}
+main {margin:0 auto;}
 
 section.gallery {
-  max-width:1080px;
   grid-template-columns: repeat(3, 1fr);
       }
 

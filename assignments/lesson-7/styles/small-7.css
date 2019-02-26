@@ -14,8 +14,6 @@ body {
 
 header {
   display: flexbox;
-  align-content: center;
-  justify-content: center;
   margin-top: 15px;
   background-color: rgba(38, 0, 255, 1);
   text-align: center;
@@ -31,16 +29,16 @@ header>img {
 
 .headertext {
   display: inline-block;
-  color: white;
+  color: rgb(253, 252, 162);
   margin: 1rem 1rem 1rem 2rem;
   padding: 1.2rem;
+  vertical-align: middle;
 }
 
 .headertext h1 {
-  font-size: 2.5rem;
-  margin: 12px;
-  display: flex;
-}
+    font-size: 3rem;
+    margin: 12px;
+}  
 
 .subheading {
   font-size: 1.1rem;
@@ -98,11 +96,11 @@ nav a {
  }
 nav ul li a:hover { background-color: darkcyan;}
 
-main {max-width: 950px; margin:0 auto;}
+main {margin:0 auto;}
     
     h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
        
-    .herodiv {margin: 5px auto; position: relative;}
+    .herodiv {max-width: 1080px; margin: 5px auto; position: relative;}
   
     img.town {width: 100%; height: auto;}   
 
@@ -125,6 +123,7 @@ section.forecast {
 
 article {
     display: inline-block;
+    max-width: 1080px;
     padding: 5px;
     margin: 15px auto;
     background:  rgb(218, 215, 215);
@@ -175,7 +174,6 @@ footer>p {
   margin-top: 0;
   margin-left:auto; 
   margin-right:auto;
-  max-width: 1080px;
   display: block;
   background: rgb(1, 25, 75);
   text-align: center;
