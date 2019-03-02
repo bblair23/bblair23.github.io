@@ -40,11 +40,17 @@
 <main>
     <h2>Preston Idaho</h2>
     <h3>To report a storm enter your infomration below</h3>
+    
     <form action="thanks.html" method="get" enctype="multipart/form-data" name=stormcenter id="userReport">
-        
         <fieldset>
             <legend><span>Contact Information</span></legend>
             <label><span>Full Name (required)</span></label>
+            <input name="fullname" type="text" value="" pattern="[a-zA-Z -._]{3,99}" required>
+            <label>Email</label>
+            <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="username@email.com">
+            <label>Phone</label>
+            <input name="phone" type="tel" pattern="[0-9]{10}" required>
+    
         </fieldset>
     
     
