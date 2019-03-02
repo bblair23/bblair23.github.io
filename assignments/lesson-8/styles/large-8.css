@@ -1,0 +1,96 @@
+@media only screen and (min-width: 55em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+nav button { display: none; }  /* hamburger button does not need to be shown */ 
+    
+nav ul.hide{
+    display: flex;
+}
+
+nav {
+  font-size: 16px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: center;
+    background-color: rgb(7, 2, 82);
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+
+li {
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+li a {
+    color: white;
+    margin: auto;
+    padding: 12px 1.5rem;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(47, 0, 255);
+}
+
+.active {
+    background-color: rgb(7, 2, 82);
+}
+
+main {margin:0 auto;}
+
+section.gallery {
+  grid-template-columns: repeat(3, 1fr);
+      }
+
+section.gallery figure:hover {
+  box-shadow: 4px 4px 6px rgb(17, 4, 48); 
+}
+    
+h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
+   
+.herodiv {margin: 5px auto; position: relative;}
+
+img.town {width: 100%; height: auto;}   
+
+.weathersummary {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background-color: rgba(35, 13, 116, 0.87);
+    border: 1px solid rgb(17, 17, 20);
+    padding: 15px;
+    box-shadow: 0 4px 15px #fff;
+}                      
+.weathersummary h3 { font-size: 1.3em; padding-bottom: 1px; border-bottom: 2px solid rgb(182, 180, 184);}
+.weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding:-bottom 2px; margin:0;}
+
+  section.forecast { 
+    display: inline-block; 
+    background-color: rgb(35, 115, 236);
+    border: 1px solid rgb(2, 2, 56);
+    margin: 10px;
+    padding: 25px;
+    align-content: center;
+  }  /* show the 5-day forecast with the large view */
+  
+  section.forecast h3 {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  section.forecast thead {
+    color: white;
+    background-color: darkblue;
+    border: 2px black;
+    margin: 10px;
+  }
+  
+  article p.town-article img { margin: 15px; max-width: 60%; float:right; }  /* responsive images */
+
+}

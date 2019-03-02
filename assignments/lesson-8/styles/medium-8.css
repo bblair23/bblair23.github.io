@@ -1,0 +1,53 @@
+@media only screen and (min-width: 40em) {    
+
+nav button { display: none; }  /* hamburger button does not need to be shown */ 
+    
+nav ul.hide{
+    display: flex;
+}
+
+nav {
+  font-size: 16px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: center;
+    background-color: rgb(7, 2, 82);
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+
+li {
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+li a {
+    color: white;
+    margin: auto;
+    padding: 12px 1.5rem;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(47, 0, 255);
+}
+
+.active {
+    background-color: rgb(7, 2, 82);
+}         
+              
+section.gallery {
+    grid-template-columns: repeat(2, 1fr)
+    }
+
+article p.town-article img { margin: 15px; max-width: 50%; float:right; }  /* responsive images */
+    
+}
+
+        
