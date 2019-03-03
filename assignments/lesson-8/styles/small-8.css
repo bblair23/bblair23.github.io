@@ -100,7 +100,7 @@ nav a {
  }
 nav ul li a:hover { background-color: darkcyan;}
 
-main {margin:0 auto;}
+main {margin:0;}
     
     h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
        
@@ -124,6 +124,28 @@ main {margin:0 auto;}
 section.forecast {
      display: none;
  }
+
+ 
+fieldset { display: flex; max-width:500px; margin: 10px auto; font-family: sans-serif; text-align:left;}
+  legend {font-size: 1.3rem; text-align: center;}
+  label {display: flex; font-size:1.1rem; margin-top:10px; }
+  input {display: flex; width:90%; margin:1px; padding: .2rem;}
+  textarea{
+  width: 90%;
+  height: auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  resize: none;
+     }
+  input[type=radio] {display: flex; width:auto; margin: 2px; float: left;} 
+  input[type=submit] {width:auto; margin: 10px auto; color: black }
+  input[type=submit]:hover { background-color: darkblue; color: #fff; }
+  
+  
 
 article {
     display: inline-block;

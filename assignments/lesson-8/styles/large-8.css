@@ -42,7 +42,7 @@ li a:hover:not(.active) {
     background-color: rgb(7, 2, 82);
 }
 
-main {margin:0 auto;}
+main {margin: 0;}
 
 section.gallery {
   grid-template-columns: repeat(3, 1fr);
