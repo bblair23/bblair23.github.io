@@ -127,7 +127,7 @@ section.forecast {
      display: none;
  }
 
-fieldset { display: flex; max-width:500px; margin: 10px auto; font-family: sans-serif; text-align:left;}
+fieldset {display: flex; max-width:500px; margin: 10px auto; font-family: sans-serif; text-align:left;}
   legend {font-size: 1.3rem; text-align: center; text-shadow: 1px 1px 2px rgb(0, 0, 24);}
   label {display: flex; font-size:1.1rem; margin-top:10px;}
   input {display: flex; width:90%; margin:1px; padding: .2rem;}
