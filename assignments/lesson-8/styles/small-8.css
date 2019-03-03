@@ -119,7 +119,7 @@ main {margin:0;}
         box-shadow: 0 4px 15px #fff;
     }                      
     .weathersummary h3 { font-size: 1.2em; padding-bottom: 1px; border-bottom: 2px solid rgb(232, 233, 229);}
-    .weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding:-bottom 4px; margin:0;}
+    .weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding-bottom: 4px; margin:0;}
 
     .thanks h2{ margin: 3rem 1rem auto; font-size:1.5rem; text-shadow: none;}
     .thanks h3 {margin-bottom: 7rem}
