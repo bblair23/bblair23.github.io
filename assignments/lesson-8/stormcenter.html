@@ -53,7 +53,7 @@
                 <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="username@email.com">
                 
                 <label><span>Phone *</span></label>
-                <input name="phone" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder= "###-###-####" required>
+                <input name="phone" type="tel" pattern="[0-9]{10,20}" placeholder= "###-###-####" required>
                 
                 <label>Zip Code *</label>
                 <input name="zip" type="number" required>
@@ -80,7 +80,7 @@
                     <span id="ratingvalue">1</span>      
                     <script src="scripts/rating.js"></script>
                 </div>
-                
+
                 <label>Storm Region</label>
                     <select id="storm-select">
                         <option value="" disabled selected>Select Region...</option>
