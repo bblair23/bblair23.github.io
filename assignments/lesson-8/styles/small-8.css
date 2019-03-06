@@ -140,7 +140,6 @@ fieldset {display: flex; max-width:500px; margin: 10px auto; font-family: sans-s
   border-radius: 4px;
   background-color: #f8f8f8;
   font-size: 12px;
-  resize: none;
      }
   input[type=radio] {display: flex; width:auto; margin: 2px; float: left;} 
   input[type=submit] {width:auto; margin: 10px auto; color: black }
