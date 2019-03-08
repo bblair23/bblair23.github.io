@@ -11,15 +11,20 @@ html {
   
   h1, h2 {
     font-family: 'Faster One', cursive;
-  }
+     }
   
   /* header styles */
   
   h1 {
     font-size: 4rem;
     text-align: center;
+    color: rgb(32, 3, 78);
   }
-  
+  h2 {
+    color: rgb(0, 113, 128);
+    font-size: 1rem;  
+  }
+
   header p {
     font-size: 1.3rem;
     font-weight: bold;

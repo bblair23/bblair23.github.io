@@ -28,12 +28,14 @@
     request.open('GET', requestURL);
     request.responseType = 'json';
     request.send();
-    request.onload = function() {
-     var superHeroes = request.response;
-    populateHeader(superHeroes);
-    showHeroes(superHeroes);
 
-    function populateHeader(jsonObj) {
+    request.onload = function() {
+  var superHeroes = request.response;
+  populateHeader(superHeroes);
+  showHeroes(superHeroes);
+}
+
+function populateHeader(jsonObj) {
   var myH1 = document.createElement('h1');
   myH1.textContent = jsonObj['squadName'];
   header.appendChild(myH1);
@@ -41,8 +43,9 @@
   var myPara = document.createElement('p');
   myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
   header.appendChild(myPara);
+}
 
-  function showHeroes(jsonObj) {
+function showHeroes(jsonObj) {
   var heroes = jsonObj['members'];
       
   for (var i = 0; i < heroes.length; i++) {
@@ -74,13 +77,11 @@
     section.appendChild(myArticle);
   }
 }
-}
-}
-
-
-
-
     
     </script>
+    <footer>
+           <a> class="active"><a href="http://bblair23.github.io">Return to Assignment Portal</a>
+    </footer>
+    
   </body>
 </html>
