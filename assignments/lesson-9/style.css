@@ -53,9 +53,10 @@ html {
     margin-bottom: 10px;
   }
   footer  {
-    margin-top: 140px;
-    padding: 20px;
+    margin: 40px;
+    padding: 40px;
     text-align: center;
     font-size: 1.2rem;
     color: blue;
+    font-weight: bold;
   }
