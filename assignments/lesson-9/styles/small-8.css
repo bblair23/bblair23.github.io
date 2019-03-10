@@ -157,9 +157,8 @@ main {margin:0;}
     background: none;
     border: none;
     background-image: none;
-    max-width: 95%;
-    padding: 10px;
-    margin: auto;
+    max-width: 1080px;
+    margin: 10px auto;
     margin-bottom: 30px;
   
   }
@@ -181,13 +180,13 @@ main {margin:0;}
 
   article.townpages h6 {
     font-family: 'lato' sans-serif;
-    font-size: .9em;
+    font-size: .8em;
     color: rgb(2, 0, 34);
     margin: 4%;
   }
 
   article.townpages p {
-    font-size: .8em;
+    font-size: .7em;
     background-color: rgb(216, 213, 213);
     margin: 0; 
   }
@@ -215,8 +214,6 @@ article.rodeo p.town-article img {  /* This structure refers to img elements tha
     margin: 15px;
   }
  
-
-
 
 section.gallery {
   display: grid;
