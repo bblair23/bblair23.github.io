@@ -8,10 +8,10 @@
 
     request.onload = function() {
     var townData = request.response;
-    showData(townData);
+    homepage(townData);
 }
 
-function showData(jsonObj) {
+function homepage(jsonObj) {
   var data = jsonObj['towns'];
       
   for (var i = 0; i < data.length; i++) {
@@ -24,7 +24,7 @@ function showData(jsonObj) {
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
-    var myPhoto = document.createElement('img');
+    var townImage = document.createElement('img');
 
     myH5.textContent = data[i].name;
     myPara1.textContent =  data[i].motto;
@@ -38,7 +38,16 @@ function showData(jsonObj) {
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
-    myArticle.appendChild(myPhoto);
+    myArticle.appendChild(townImage);
+        if (i == 1)
+            townImage.src = 'images/img1.jpg'
+            townImage.setAttribute( 'class', 'townImg' )
+        if (i == 4)
+            townImage.src = 'images/img2.jpg'
+            townImage.setAttribute( 'class', 'townImg' )
+        if (i == 5)
+            townImage.src = 'images/img3.jpg'
+            townImage.setAttribute( 'class', 'townImg' )
 
     article.appendChild(myArticle);
   }
