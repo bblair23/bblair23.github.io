@@ -92,5 +92,17 @@ img.town {width: 100%; height: auto;}
   }
   
   article p.town-article img { margin: 15px; max-width: 60%; float:right; }  /* responsive images */
-
+  
+  article.townpages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+    text-align: center;
+    background: none;
+    border: none;
+    background-image: none;
+    max-width: 95%;
+    padding: 10px;
+  
+  }
 }
