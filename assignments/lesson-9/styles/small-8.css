@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  display: flexbox;
+  display: block;
   margin-top: 15px;
   background-color: rgba(38, 0, 255, 1);
   text-align: center;
@@ -103,7 +103,9 @@ nav ul li a:hover { background-color: darkcyan;}
 main {margin:0;}
     
     h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
-       
+
+    p {font-size:1.2em; font-weight: bold;  }       
+    
     .herodiv {max-width: 1080px; margin: 5px auto; position: relative;}
   
     img.town {width: 100%; margin-bottom: 20px; height: auto;}   
