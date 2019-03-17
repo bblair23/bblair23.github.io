@@ -13,3 +13,4 @@ weatherRequest.onload = function() {
     document.getElementById('cc-humidity').innerHTML = weatherData.main.humidity;
 
    }
+  

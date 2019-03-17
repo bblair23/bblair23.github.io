@@ -1,5 +1,3 @@
-
-    
     var t = parseInt(document.getElementById('cc-high').innerHTML);
     var s = parseInt(document.getElementById('cc-wind').innerHTML);
     
@@ -10,3 +8,5 @@
     chill = Math.round(chill * multiplier) / multiplier;
 	
     document.write(chill);
+
+    
