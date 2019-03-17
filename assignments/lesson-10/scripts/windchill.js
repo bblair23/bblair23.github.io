@@ -1,7 +1,7 @@
 
     
-    var t = parseInt(document.getElementById('currentTemp').innerHTML);
-    var s = parseInt(document.getElementById('wind').innerHTML);
+    var t = parseInt(document.getElementById('cc-high').innerHTML);
+    var s = parseInt(document.getElementById('cc-wind').innerHTML);
     
     var chill = 35.74 + (.6215 * t) - 35.75 * Math.pow(s,0.16) + (.4275 * t * Math.pow(s,.16));
 	
