@@ -208,8 +208,7 @@ main {margin:0;}
     font-size: 1.4rem;
   }
 
-article.rodeo p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    /* fill the page in the small/phone view */
+article.rodeo p.town-article img { 
     max-width: 90%;
     margin: 15px;
   }
@@ -233,9 +232,6 @@ section.gallery figure figcaption {
   padding: 1%;
 }
 
-footer {
-     }
-
 img.map {
   margin: 15px auto;
 }
@@ -248,18 +244,17 @@ footer aside {
   background: rgb(143, 173, 236);
   border: 2px solid rgb(2, 2, 48);
 }
-
-footer>p {
+footer a {color: white;}
+footer p {
   margin-top: 10px;
   margin-left:auto; 
   margin-right:auto;
-  font-size: 1em;
+  font-size: .9em;
   display: block;
   background: rgb(1, 25, 75);
   text-align: center;
   color:white;
   border: 2px solid rgb(2, 2, 48);
   
-} /* This structure refers to p elements that are direct children of the footer element */
+} 
 
-/* Other Class Selectors */
