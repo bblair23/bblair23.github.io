@@ -135,16 +135,17 @@ main {margin:0;}
     label {display: flex; font-size:1.1rem; margin-top:10px;}
     input {display: flex; width:90%; margin:1px; padding:.2rem;}
     textarea{
-    width: 90%;
-    height: auto;
-    padding: 12px 12px;
-    box-sizing: border-box;
-    border: 1px solid;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 12px;
-    resize: none;
-      }
+      width: 90%;
+      height: auto;
+      padding: 12px 12px;
+      box-sizing: border-box;
+      border: 1px solid;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      font-size: 12px;
+      resize: none;
+    }
+
     input[type=radio] {display: flex; width:auto; margin: 2px; float: left;} 
     input[type=submit] {width:auto; margin: 10px auto; color: black }
     input[type=submit]:hover { background-color: darkblue; color: #fff; }
@@ -156,27 +157,29 @@ main {margin:0;}
       border: none;
       background-image: none;
       max-width: 500px;
-      margin: 15px auto;
-      background-color: rgb(218, 232, 238);
+      margin: 10px auto;
+      background-color: rgb(218, 215, 215);
       box-shadow: 1px 1px 1px 1px darkblue;
-      }
-
-  article.events h5 {
-      font-family: 'Sans' sans-serif;
-      font-size: 1em;
-      margin-left: 15%;
-      color: rgb(0, 34, 34);
-      margin-bottom: 5px;
-      }
+    }
 
   article.events h3 {
       padding: 10px;
-      border-bottom: 2px solid navy;
+      border-bottom: 2px solid darkblue;
       text-align: center;
       font-size: 1.5em;
       font-style: italic;
       color: black;
-      }
+      margin-bottom: 2px;
+    }
+
+  article.events h5 {
+      padding: 2px;
+      margin: 4px;
+      font-family: 'Sans' sans-serif;
+      font-size: 1em;
+      margin-left: 15%;
+      color: rgb(0, 34, 34);
+    }
 
   article.townpages {
     display: block;
@@ -187,7 +190,7 @@ main {margin:0;}
     max-width: 1080px;
     margin: 10px auto;
     margin-bottom: 30px;
-  }
+ }
 
   article.townpages div {
     background-color: lightgray;
