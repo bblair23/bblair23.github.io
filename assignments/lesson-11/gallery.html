@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery | Weather First</title>
+    <meta name="author" content="Benjamin Blair">
+    <meta name="description" content="Preston weather page"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora%7CPT+Sans" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/small-8.css" rel="stylesheet"> 
+    <link href="styles/medium-8.css" rel="stylesheet">     
+    <link href="styles/large-8.css" rel="stylesheet">  
+</head>
+
+<body>
+ <header> 
+      <img src="images/sunny.png" alt="Weather First Picture">
+      <div class="headertext">
+          <h1>Weather First</h1> 
+          <div class="subheading">Where The Weather Comes First</div>
+      </div>
+      <div class="currentconditions">
+          <img src= "images/partly.png" alt="Current Condtions icon">
+          <p>Partly Cloudy</p>
+      </div>
+  </header>
+
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul>
+    	<li class="active"><a href="home.html">Home</a></li>
+    	<li class="active"><a href="preston.html">Preston</a></li>
+    	<li class="active"><a href="soda.html">Soda Springs</a></li>
+    	<li class="active"><a href="fish.html">Fish Haven</a></li>
+    	<li class="active"><a href="stormcenter.html">Storm Center</a></li>
+    	<li class="active"><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <h2>Weather Gallery</h2>
+        <section class= "gallery"> 
+       
+            <figure>
+                <img src="images/clear.jpg" alt="sunny">
+                <figcaption>Sunny Day</figcaption>
+            </figure> 
+
+            <figure>
+                <img src="images/cloudy.jpg" alt="cloudy">
+                <figcaption>Cloud Formation</figcaption>
+            </figure> 
+
+            <figure>
+                <img src="images/foggy.jpg" alt="foggy">
+                <figcaption>Low Visibility</figcaption>
+            </figure> 
+
+            <figure>
+                <img src="images/lightning.jpg" alt="lightning strike">
+                <figcaption>Lightning Storm</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/snow.jpg" alt="snow">
+                <figcaption>Icy Road Conditions</figcaption>
+            </figure>     
+
+            <figure>
+                <img src="images/sunset.jpg" alt="sunset image">
+                <figcaption>Beautiful Sunset</figcaption>
+            </figure> 
+       </section>
+  </main>
+    
+  <footer>
+    <p class="footer-bar">&copy;2019 Weather First | Benjamin Blair | Gallery | <span id="currentdate">  
+      <script src="scripts/currentdate.js"></script></span></p>
+  </footer>
+
+</body>
+</html>

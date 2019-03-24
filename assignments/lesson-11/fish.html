@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Fish Haven | Weather First</title>
+    <meta name="author" content="Benjamin Blair">
+    <meta name="description" content="Preston weather page"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora%7CPT+Sans" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/small-8.css" rel="stylesheet">  
+    <link href="styles/medium-8.css" rel="stylesheet">    
+    <link href="styles/large-8.css" rel="stylesheet">  
+</head>
+
+<body>
+ <header> 
+      <img src="images/sunny.png" alt="Weather First Picture">
+      <div class="headertext">
+          <h1>Weather First</h1> 
+          <div class="subheading">Where The Weather Comes First</div>
+      </div>
+      <div class="currentconditions">
+          <img src= "images/partly.png" alt="Current Condtions icon">
+          <p>Partly Cloudy</p>
+          <script src="scripts/fishapi.js"></script>
+      </div>
+  </header>
+
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul>
+    	<li class="active"><a href="home.html">Home</a></li>
+    	<li class="active"><a href="preston.html">Preston</a></li>
+    	<li class="active"><a href="soda.html">Soda Springs</a></li>
+    	<li class="active"><a href="fish.html">Fish Haven</a></li>
+    	<li class="active"><a href="stormcenter.html">Storm Center</a></li>
+    	<li class="active"><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <h2>Fish Haven</h2>
+    <section class= "herodiv">       
+      <img class="town" 
+        srcset= "images/fishimage.jpg 320w,
+            images/fishimage.jpg 480w,
+            images/fishimage.jpg 800w"
+        sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+        src="images/fishimage.jpg" alt="Town Picture">           
+      
+      <div class="weathersummary">
+      <h3>Weather Summary</h3>
+            <p>Currently: <span id="cc-current"></span></p>
+            <p>High Temperature: <span id="cc-high"></span>&deg; F</p>
+            <p>Wind Speed: <span id="cc-wind"></span>mph</p>      
+            <p>Humidity: <span id="cc-humidity"></span>%</p>
+            <p>Wind Chill: <span id= "windChill"><script src="scripts/windchill.js"></script></span>&deg;F</p>    
+      </div>
+      </section>   
+
+    <section class="forecast">
+      <h3>5 Day Forcast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+   
+    <article class = "rodeo">
+      <h3>NASA Takes Picture of Bear Lake</h3>	
+      <p class="town-article">
+        <img src="images/bearlake.jpg" alt="article image">
+        Many Idahoans are used to looking at the spectacle of our state’s scenery from a variety of viewpoints 
+        — high mountain peaks, deep canyons and more. But we don’t often get an out-of-this world view, literally.
+        <br><br>
+        On Sunday, NASA’s image of the day offered a unique look at the Idaho landscape, highlighting the deep blue 
+        of southeast Idaho’s Bear Lake as seen from the International Space Station.
+      </p>
+	</article>		  
+  
+  </main>
+    
+  <footer>
+    <aside>
+      <img class=map src="images/map.png" alt="preston map">
+    </aside>
+    <p class="footer-bar">&copy;2019 Weather First | Benjamin Blair | Fish Haven | <span id="currentdate">  
+      <script src="scripts/currentdate.js"></script>
+    </span></p>
+  </footer>
+
+</body>
+</html>

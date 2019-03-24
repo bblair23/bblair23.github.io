@@ -1,0 +1,265 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+
+body {
+  padding: 0;
+  max-width: 90%;
+  max-height: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+  font-family: 'PT Sans', sans-serif;
+}
+
+header {
+  display: block;
+  margin-top: 15px;
+  background-color: rgb(59, 157, 202);
+  text-align: center;
+  padding: .3rem;
+  color: whitesmoke;
+}
+
+header>img {
+  width: 140px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.headertext {
+  display: inline-block;
+  color: rgb(253, 252, 162);
+  margin: 1rem;
+  padding: 1.2rem;
+  vertical-align: middle;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 1px 2px 2px rgb(26, 26, 24);
+}
+
+.headertext h1 {
+  font-size: 3rem;
+  line-height: 2.5rem;
+  margin: 20px;
+  padding: 7px;
+}  
+
+.subheading {
+  font-size: 1.1rem;
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.currentconditions {
+  display: inline-block;
+  margin: .5rem;
+  padding: 1rem;
+  vertical-align: middle;
+  color: white;
+  background-color: rgb(22, 136, 189);
+  border: 1pt solid darkblue;
+  font-size: 1rem;
+}
+
+.currentconditions p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.currentconditions>img {
+   display: inline-block;
+   padding: 4px;
+   width: 75px;
+   height: auto;
+   vertical-align: middle;
+}
+
+nav button {
+  display:none;
+  }
+
+nav {
+  background-color: darkblue;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+ }
+
+nav li {list-style-type: none;}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: .2em 0;
+  text-decoration: none;
+ }
+nav ul li a:hover { background-color: darkcyan;}
+
+main {margin:0;}
+    
+    h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
+
+    p {font-size:1.2em; }       
+    
+    .herodiv {max-width: 1080px; margin: 5px auto; position: relative;}
+  
+    img.town {width: 100%; margin-bottom: 20px; height: auto;}   
+
+    .weathersummary {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        color: white;
+        background-color: rgba(63, 21, 212, 0.82);
+        border: 1px solid rgb(17, 17, 20);
+        padding: 15px;
+        box-shadow: 0 4px 15px #fff;
+    }                      
+    .weathersummary h3 { font-size: 1.2em; padding-bottom: 1px; border-bottom: 2px solid rgb(232, 233, 229);}
+    .weathersummary p { font-size: 1em; font-family: sans-serif, 'PT Sans'; padding-bottom: 4px; margin:0;}
+
+    .thanks h2{ margin: 3rem 1rem auto; font-size:1.5rem; text-shadow: none;}
+    .thanks h3 {margin-bottom: 7rem}
+
+    section.forecast {
+     display: none;
+ }
+
+  fieldset {display: block; max-width:500px; margin: 10px auto; background-color: rgb(216, 213, 213); font-family: sans-serif; text-align:left;}
+    legend {font-size: 1.3rem; text-align: center; color: white; padding: 4px; background-color: rgb(1, 1, 78); text-shadow: 1px 1px 2px rgb(0, 0, 24);}
+    label {display: flex; font-size:1.1rem; margin-top:10px;}
+    input {display: flex; width:90%; margin:1px; padding:.2rem;}
+    textarea{
+    width: 90%;
+    height: auto;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    resize: none;
+      }
+    input[type=radio] {display: flex; width:auto; margin: 2px; float: left;} 
+    input[type=submit] {width:auto; margin: 10px auto; color: black }
+    input[type=submit]:hover { background-color: darkblue; color: #fff; }
+  
+ 
+
+  article.townpages {
+    display: block;
+    text-align: center;
+    background: none;
+    border: none;
+    background-image: none;
+    max-width: 1080px;
+    margin: 10px auto;
+    margin-bottom: 30px;
+  
+  }
+  article.townpages div {
+    background-color: lightgray;
+    box-shadow: 1px 1px 2px 2px darkblue;
+    grid-gap: 10px;
+    max-width: 420px;
+    margin: auto;
+  }
+  
+  article.townpages h5 {
+    font-family: 'Sans' sans-serif;
+    font-size: 1.3em;
+    font-style: italic; 
+    color: rgb(0, 34, 34);
+    margin: 4%;
+  }
+
+  article.townpages h6 {
+    font-family: 'lato' sans-serif;
+    font-size: .8em;
+    color: rgb(2, 0, 34);
+    margin: 4%;
+  }
+
+  article.townpages p {
+    font-size: .7em;
+    background-color: rgb(216, 213, 213);
+    margin: 0; 
+  }
+
+  img.townImg {max-width:100%; margin:2px auto; margin-bottom: 10px;}
+  
+
+  article.rodeo {
+    display: inline-block;
+    max-width: 90%;
+    padding: 5px;
+    margin: 15px auto;
+    background:  rgb(218, 215, 215);
+    border: 1px solid rgb(17, 17, 20);
+    box-shadow: 0 4px 15px blue;
+  }
+
+  article.rodeo h3 {
+    font-size: 1.4rem;
+  }
+
+article.rodeo p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    /* fill the page in the small/phone view */
+    max-width: 90%;
+    margin: 15px;
+  }
+ 
+
+section.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  margin: 0;
+  padding: 0 1%;
+}
+
+section.gallery figure img {
+  width: 100%;
+}
+
+section.gallery figure figcaption {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1%;
+}
+
+footer {
+     }
+
+img.map {
+  margin: 15px auto;
+}
+footer aside { 
+  margin: 15px auto;
+  margin-bottom: 0; 
+  max-width: 1080px;
+  position: relative;
+  display: inline-block;
+  background: rgb(143, 173, 236);
+  border: 2px solid rgb(2, 2, 48);
+}
+
+footer>p {
+  margin-top: 10px;
+  margin-left:auto; 
+  margin-right:auto;
+  font-size: 1em;
+  display: block;
+  background: rgb(1, 25, 75);
+  text-align: center;
+  color:white;
+  border: 2px solid rgb(2, 2, 48);
+  
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
