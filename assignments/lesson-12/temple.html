@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Temples | Temple Inn & Suites </title>
+    <meta name="author" content="Benjamin Blair">
+    <meta name="description" content="Preston weather page"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora%7CPT+Sans" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/small.css" rel="stylesheet">  
+    <link href="styles/medium.css" rel="stylesheet">    
+    <link href="styles/large.css" rel="stylesheet">  
+    <script src="scripts/denverapi.js"></script> 
+    <script src="scripts/weatherapi.js"></script>  
+    
+ </head>
+
+<body>
+    <header> 
+        <img src="images/Templelogo.png" alt="Weather First Picture">
+        <div class="headertext">
+            <h1>Temple Inn & Suites</h1> 
+            <div class="subheading"></div>
+        </div>
+       
+    </header>
+  
+    <nav>
+      <button onclick="toggleNavMenu()">&#9776;</button>
+      <ul>
+        <li class="active"><a href="home.html">Home</a></li>
+        <li class="active"><a href="temple.html">Temples</a></li>
+        <li class="active"><a href="reservation.html">Reservations</a></li>
+        <li class="active"><a href="services.html">Services</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      
+      </ul>		
+    </nav>
+    
+  <main>
+      <h2>Temples</h2>
+      <article class = "rodeo">
+          
+        <h3>Denver Colorado Temple</h3>	
+           <div class="town-article">
+            <img src="images/denver.jpg" alt="article image">
+               <p> Along with our three nights of rodeo, we have parades and a great downtown sidewalk sale. 
+                The sidewalk sale brings vendors from our local vicinity and from surrounding states. 
+                Everything from jewelry to camping gear to clothes, gifts, signs, decorating items…you name it, you can find it, 
+                along with all kinds of great food booths. Delicious foods, drinks, sweets can be found as you stroll down 
+                Preston’s main street and Oneida street.
+              </p>
+           </div>
+         
+           <div class="weathersummaryT">
+              <h3>Weather Summary</h3>
+                  <p>Currently: <span id="cc-current"></span></p>
+                  <p>High Temperature: <span id="cc-high"></span>&deg; F</p>
+                  <p>Wind Speed: <span id="cc-wind"></span>mph</p>      
+                  <p>Humidity: <span id="cc-humidity"></span>%</p>
+          </div>
+          
+          <div class="temple-info">
+              
+                  <h4>Address</h4>
+                  <p>2001 E Phillips Cir, Denver, CO 80122</p>
+                  <h4>Telephone</h4>
+                  <p>(1) 303-730-0220</p>
+                  <h4>Services</h4>
+                  <p>Clothing rental available, Cafeteria available, No Patron housing, Distribution center nearby</p>
+                  <h4>Temple Closure Schedule</h4>
+                  <div class= "closures">
+                      <p>Tuesday, 2 July 2019 - Monday, 7 October 2019</p>
+                      <p>Wednesday, 27 November 2019 (Limited Hours)</p>
+                      <p>Thursday, 28 November 2019</p>
+                      <p>Tuesday, 24 December 2019</p>
+                      <p>Wednesday, 25 December 2019</p>
+                      <p>Tuesday, 31 December 2019 (Limited Hours)</p>
+                  </div>
+                </div>
+          
+        </article>		  
+        <article class = "rodeo">
+           
+            <h3>Vernal Utah Temple</h3>	
+             <div class="town-article">
+              <img src="images/vernal.jpg" alt="article image">
+                 <p> Along with our three nights of rodeo, we have parades and a great downtown sidewalk sale. 
+                  The sidewalk sale brings vendors from our local vicinity and from surrounding states. 
+                  Everything from jewelry to camping gear to clothes, gifts, signs, decorating items…you name it, you can find it, 
+                  along with all kinds of great food booths. Delicious foods, drinks, sweets can be found as you stroll down 
+                  Preston’s main street and Oneida street.
+                </p>
+             </div>
+            <div class="weathersummaryT">
+                <h3>Weather Summary</h3>
+                      <p>Currently: <span id="cc-current2"></span></p>
+                      <p>High Temperature: <span id="cc-high2"></span>&deg; F</p>
+                      <p>Wind Speed: <span id="cc-wind2"></span>mph</p>      
+                      <p>Humidity: <span id="cc-humidity2"></span>%</p>
+                    
+                </div>
+          </article>		         
+      
+</main>
+
+  <footer>
+    <aside>
+    </aside>
+    <p>&copy;2019 Temple Inn & Suites | Benjamin Blair | <span id="currentdate">  
+      <script src="scripts/currentdate.js"></script></span> | 
+      <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temple Inn & Suites</title>
+    <meta name="author" content="Benjamin Blair">
+    <meta name="description" content="Preston weather page"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora%7CPT+Sans" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/small.css" rel="stylesheet">  
+    <link href="styles/medium.css" rel="stylesheet">    
+    <link href="styles/large.css" rel="stylesheet">  
+</head>
+
+<body>
+ <header> 
+      <img src="images/Templelogo.png" alt="Weather First Picture">
+      <div class="headertext">
+          <h1>Temple Inn & Suites</h1> 
+          <div class="subheading"></div>
+      </div>
+     
+  </header>
+
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul>
+    	<li class="active"><a href="home.html">Home</a></li>
+    	<li class="active"><a href="temple.html">Temple</a></li>
+    	<li class="active"><a href="reservations.html">Reservations</a></li>
+    	<li class="active"><a href="services.html">Services</a></li>
+    	<li class="active"><a href="contact.html">Contact</a></li>
+    
+    </ul>		
+  </nav>
+    
+  <main>
+   
+    <section class= "herodiv">       
+      <img class="town" 
+        srcset= "images/town.jpg 320w,
+            images/town.jpg 480w,
+            images/town.jpg 800w"
+        sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+        src="images/town.jpg" alt="Town Picture">           
+      
+      <div class="weathersummary">
+      <h3><a href="reservation.html">Reserve Now</a></h3>              
+      </div>
+    
+      </section>   
+    
+    <article class="evens">
+        <h2>Temple Inn & Suites</h2>
+        <p><span id="upcoming"> Temple Inn & Suites is a hotel chain headquartered ub Bethesda, MD that builds and manages specialized hotel accommodations near temple locations around the world.  
+          We are owner-operated and cater to temple workers, patrons, and their families by providing specialized services and accommodations that meet the need of those patrons.
+          These hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company.</span>
+        </p>    
+    </article>
+
+    <article class = "rodeo">
+      <h2>San Diego California Temple</h2>	
+      <p class="town-article">
+        <img src="images/san_diego_california_temple.jpeg" alt="article image">
+            <h3>Address</h3>
+            <p>7474 Charmant Drive, San Diego, CA 92122</p>
+            <h3>Telephone</h3>
+            <p>(1) 858-622-0991</p>
+            <h3>Services</h3>
+            <p>Clothing rental available, Cafeteria available, No Patron housing, Distribution center nearby</p>
+
+      </p>
+		</article>		  
+  
+  </main>
+    
+  <footer>
+  
+    <p>&copy;2019 Temple Inn & Suites | Benjamin Blair | <span id="currentdate">  
+      <script src="scripts/currentdate.js"></script></span> |
+      <a href="http://www.byui.edu/online"> BYU-Idaho Online Learning</a>
+  </p>
+  </footer>
+
+</body>
+</html>
