@@ -29,7 +29,7 @@ nav li {
 nav li a {
     color: white;
     margin: auto;
-    padding: 12px 1.5rem;
+    padding: 12px 1.7rem;
     text-decoration: none;
     flex-wrap: nowrap;
 }
@@ -38,10 +38,7 @@ nav li a:hover:not(.active) {
     background-color: rgb(11, 171, 235);
 }
 
-.active {
-    background-color: rgb(7, 65, 92);
-}         
-              
+
 section.gallery {
     grid-template-columns: repeat(2, 1fr)
     }

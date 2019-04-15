@@ -19,21 +19,13 @@ nav li {
 nav li a {
     color: white;
     margin: auto;
-    padding: 12px 1.5rem;
+    padding: 12px 1.8rem;
     text-decoration: none;
     flex-wrap: nowrap;
 }
 
 main {margin: 0; }
 
-section.gallery {
-  grid-template-columns: repeat(2, 1fr);
-      }
-
-section.gallery figure:hover {
-  box-shadow: 4px 4px 6px rgb(17, 4, 48); 
-}
-    
 h2 {text-align:center; font-size:1.8rem;text-shadow:3px 3px 5px #777;}
    
 .herodiv {margin: 5px auto; position: relative;}
