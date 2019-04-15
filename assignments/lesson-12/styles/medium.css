@@ -53,7 +53,7 @@ article.townpages {
     grid-template-columns: repeat(2, 1fr); 
   }
 
-  .temple-info ul {max-width: 50%}
+  .temple-info ul {max-width: 65%}
 
   article.service {max-width: 75%}
 }
