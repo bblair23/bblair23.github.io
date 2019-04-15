@@ -13,7 +13,7 @@ body {
 header {
   display: block;
   margin-top: 15px;
-  background-color: rgb(162, 177, 185);
+  background-color: rgb(201, 204, 212);
   text-align: center;
   padding: .3rem;
   color: rgb(15, 133, 127);
@@ -23,6 +23,7 @@ header>img {
   width: 100px;
   height: auto;
   vertical-align: middle;
+  margin: 5px;
 }
 
 .headertext {
@@ -31,7 +32,7 @@ header>img {
   margin: auto;
   padding: 1.2rem;
   vertical-align: middle;
-  font-family: 'PT Sans', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 1px 2px 2px rgb(26, 26, 24);
 }
 
@@ -53,7 +54,7 @@ nav button {
   }
 
 nav {
-  background-color: rgb(15, 133, 127);
+  background-color: rgb(7, 65, 92);
   text-align: center;
   font-size: 14px;
   font-family: sans-serif;
@@ -76,11 +77,9 @@ nav ul li a:hover { background-color: darkcyan;}
 
 main {margin:0;}
     
-    h2 {margin-bottom: 40px; text-align: center;font-size:1.4rem;text-shadow:3px 3px 5px #777;}
+    h2 {margin-bottom: 40px; text-align: center; font-size:1.6rem;text-shadow:3px 3px 5px #777;}
 
-    h3 {text-align: center; margin-top: 1.5em; font-size: 1.7rem; text-shadow:1px 1px 2px rgb(163, 230, 233);}
-
-    p {font-size:1.2em; }       
+    p {font-size:1.2em; margin: auto; margin-bottom: 30px; max-width:90%; }       
     
     .herodiv {max-width: 1080px; margin: 5px auto; position: relative;}
   
@@ -91,14 +90,16 @@ main {margin:0;}
         display: block;
         left: 15px;
         top: 15px;
-        color: rgb(248, 252, 251);
-        background-color: rgb(15, 133, 127);
+        color: white;
+        background-color: rgb(54, 126, 128);
         border: 1px solid rgb(17, 17, 20);
         border-radius: 15px;
         box-shadow: 0 4px 15px rgb(0, 4, 14);
     }                      
-    .weathersummary h3 {margin: 25px; padding: 0; font-family: sans-serif; color: white;}
+    .weathersummary h3 { margin: 25px; padding: 0; font-size: 1.4em; font-family: serif; color: white;}
     
+    .weathersummary a { color: white;}
+   
     .weathersummary p {font-size: 1em; margin:0; padding: 0; color: white;}
 
     .thanks h2{ margin: 3rem 1rem auto; font-size:1.5rem; text-shadow: none;}
@@ -119,7 +120,6 @@ main {margin:0;}
       font-size: 12px;
       resize: none;
     }
-
     input[type=radio] {display: flex; width:auto; margin: 2px; float: left;} 
     input[type=submit] {width:auto; margin: 10px auto; color: black }
     input[type=submit]:hover { background-color: darkblue; color: #fff; }
@@ -133,11 +133,10 @@ main {margin:0;}
     background:  rgb(218, 215, 215);
     border: 1px solid rgb(17, 17, 20);
     box-shadow: 0 4px 15px blue;
+    margin-bottom: 35px;
   }
 
-  article.rodeo h3 {
-    font-size: 1.8rem; margin:5px;
-  }
+  article.rodeo h2 {font-size: 1.5rem; margin:10px; }
 
   article.rodeo p.town-article img { 
     display: block;
@@ -154,16 +153,16 @@ main {margin:0;}
     display: inline-block;
     justify-content: flex-start;
     margin-top:0;
-    margin-bottom: 25px;
-    padding: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
     color: rgb(0, 15, 12);
     background-color: rgb(208, 226, 225);
     border: 1px solid rgb(17, 17, 20);
     border-radius: 15px;
     box-shadow: 0 4px 15px rgb(0, 4, 14);
   }   
-  .weathersummaryT h3 { font-size: 1.2em; padding-bottom: 1px; border-bottom: 2px solid rgb(27, 5, 88);}
-  .weathersummaryT p { display: block; font-size: 1em; font-family: sans-serif, 'PT Sans'; padding-bottom: 4px; margin:0;}
+  .weathersummaryT h3 { margin: 5px; font-size: 1.2rem; padding-bottom: 1px; border-bottom: 2px solid rgb(27, 5, 88);}
+  .weathersummaryT p { display: block; font-size: .9em; font-family: sans-serif, 'PT Sans'; padding-bottom: 4px; margin:0;}
 
   .temple-info {display: inline-block; text-align: left; margin: 5px; }
   .temple-info h4 { font-size: 1.2em; color: rgb(20, 18, 18); margin: 7px 0px 3px 0px; padding:0;}

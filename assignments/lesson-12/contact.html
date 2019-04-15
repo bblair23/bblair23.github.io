@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Temple Inn & Suites | Reservations</title>
+    <meta name="author" content="Benjamin Blair">
+    <meta name="description" content="Preston weather page"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora%7CPT+Sans" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/small.css" rel="stylesheet">  
+    <link href="styles/medium.css" rel="stylesheet">    
+    <link href="styles/large.css" rel="stylesheet">  
+</head>
+
+<body>
+    <header> 
+        <img src="images/Templelogo.png" alt="Weather First Picture">
+        <div class="headertext">
+                <h1>Temple Inn & Suites</h1> 
+                <div class="subheading"></div>
+                </div> 
+    </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul>
+                <li class="active"><a href="home.html">Home</a></li>
+                <li class="active"><a href="temple.html">Temples</a></li>
+                <li class="active"><a href="reservation.html">Reservations</a></li>
+                <li class="active"><a href="services.html">Services</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>		
+        </nav>
+
+    <main>
+        <h2>Temple Inn & Suites</h2>
+        <h3>Enter your information below to make a reservation</h3>
+    
+        <div class="container">
+        <form action="thanks.html" method="get" enctype="multipart/form-data" name=reservation id="userReport">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label><span>Full Name *</span></label>
+                <input name="fullname" type="text" value="" pattern="[a-zA-Z -._]{3,50}" required>
+                
+                <label><span>Email</span></label>
+                <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="username@email.com">
+                
+                <label><span>Phone *</span></label>
+                <input name="phone" type="tel" placeholder= "###-###-####" required>
+                
+                <label>Home State or Country *</label>
+                <input name="homestate" type="text" required>
+    
+           
+                <label>Special Accomodations / Comments</label>
+                <textarea name="addinfo"></textarea>
+               
+            </fieldset>
+            <input type="submit" value="Submit Form">
+        </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy;2019 Temple Inn & Suites| Benjamin Blair | Reservation | <span id="currentdate">  
+          <script src="scripts/currentdate.js"></script></span> 
+        </p>
+    </footer>
+
+</body>
+</html>
