@@ -186,7 +186,16 @@ main {margin:0;}
     border: 1px solid rgb(17, 17, 20);
     box-shadow: 0 4px 15px rgb(4, 118, 138);
   }
-
+  article.service p.town-article img { 
+    display: block;
+    max-width: 90%;
+    margin: auto;
+  }
+  article.town article p {
+    display: inline-block;
+    text-align: center;
+    max-width: 95%;
+  }
 section.gallery {
   display: grid;
   grid-template-columns: repeat(1, 100%);
