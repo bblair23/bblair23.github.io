@@ -1,6 +1,5 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-
 body {
   padding: 0;
   max-width: 90%;
@@ -8,7 +7,6 @@ body {
   text-align: center;
   line-height: 30px;
   font-size: 16px;
-  /* Declare the base font-family - from google font api or other */
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -105,7 +103,6 @@ main {margin:0;}
 
     .thanks h2{ margin: 3rem 1rem auto; font-size:1.5rem; text-shadow: none;}
     .thanks h3 {margin-bottom: 7rem}
-
  
   fieldset {display: flex; max-width:500px; margin: 10px auto; background-color: rgb(216, 213, 213); font-family: sans-serif; text-align:left;}
     legend {font-size: 1.3rem; text-align: center; color: white; padding: 4px; background-color: rgb(1, 1, 78); text-shadow: 1px 1px 2px rgb(0, 0, 24);}
@@ -127,7 +124,6 @@ main {margin:0;}
     input[type=submit] {width:auto; margin: 10px auto; color: black }
     input[type=submit]:hover { background-color: darkblue; color: #fff; }
   
-
   article.rodeo {
     display: block;
     border-radius: 20px;
