@@ -10,7 +10,7 @@ nav {
   font-size: 16px;
 }
 
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     overflow: hidden;
@@ -20,13 +20,13 @@ ul {
     margin: 0;
   }
 
-li {
+nav li {
     position: relative;
     float: left;
     margin: 0;
 }
 
-li a {
+nav li a {
     color: white;
     margin: auto;
     padding: 12px 1.5rem;
@@ -34,7 +34,7 @@ li a {
     flex-wrap: nowrap;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: rgb(11, 171, 235);
 }
 
@@ -54,6 +54,6 @@ article.townpages {
    
   
   }
-
+  .temple-info ul {max-width: 50%}
 }
        
