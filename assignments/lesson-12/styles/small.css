@@ -172,8 +172,20 @@ main {margin:0;}
   .temple-info {display: inline-block; text-align: left; margin: 5px; }
   .temple-info h4 { font-size: 1.2em; color: rgb(20, 18, 18); margin: 7px 0px 3px 0px; padding:0;}
   .temple-info p { font-size: 1.1em; margin: 0; padding:0;}
-  .temple-info ul {margin: auto; font-family: serif; font-size:1.2em;}
+  .temple-info ul {margin: auto; font-family: sans-serif; font-size:1.2em;}
   .closures {font-size: .9em;}
+
+  article.service {
+    display: block;
+    border-radius: 20px;
+    max-width: 90%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+    background:  rgb(218, 215, 215);
+    border: 1px solid rgb(17, 17, 20);
+    box-shadow: 0 4px 15px rgb(4, 118, 138);
+  }
 
 section.gallery {
   display: grid;

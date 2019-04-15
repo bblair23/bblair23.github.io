@@ -50,10 +50,11 @@ article p.town-article img { margin: 15px; max-width: 70%;}  /* responsive image
     
 article.townpages {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   
-  
+    grid-template-columns: repeat(2, 1fr); 
   }
+
   .temple-info ul {max-width: 50%}
+
+  article.service {max-width: 80%}
 }
        
