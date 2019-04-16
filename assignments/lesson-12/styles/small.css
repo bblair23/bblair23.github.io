@@ -127,7 +127,8 @@ main {margin:0;}
   
   fieldset.contact {display: flex; color: white; border-radius: 20px; max-width:400px; margin: 10px auto; background-color: rgb(53, 55, 56); font-family: sans-serif; text-align:left;}
   fieldset.contact textarea {height: 150px;}
-  .map {margin-top: 30px;}
+
+  .map {margin-top: 35px; }
 
   article.events p {text-align: left; max-width: 90%; margin-bottom: 40px;}  
   

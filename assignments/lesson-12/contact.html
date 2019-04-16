@@ -36,7 +36,7 @@
     <article class="contactmap">
         <h2>Temple Inn & Suites</h2>
         <h3>Questions or Comments</h3>
-        <h4>Please contact us or fill out the form below and we will contact you</h4>
+        <h4>Please contact us 24 hours a day at 555-555-5555 or fill out the form below and we will contact you. Thank You!</h4>
     
         <form action="thanks.html" method="get" enctype="multipart/form-data" name=reservation id="userReport">
             <fieldset class ="contact">
@@ -50,9 +50,13 @@
                 <label><span>Phone</span></label>
                 <input name="phone" type="tel" placeholder= "###-###-####" required>
                 
-                <label>Home State *</label>
-                <input name="homestate" type="text" required>
-               
+                <label>Preferred Contact Method</label>
+                <select id="storm-select">
+                    <option value="" disabled selected>Select Contact Type...</option>
+                    <option value="preston">Phone</option>
+                    <option value="soda">Email</option>    
+                </select>
+                
                 <label>Comments / Questions</label>
                 <textarea name="addinfo"></textarea>
                
