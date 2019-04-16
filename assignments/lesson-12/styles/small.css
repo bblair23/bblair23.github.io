@@ -125,7 +125,7 @@ main {margin:0;}
     input[type=submit] {width:auto; margin: 10px auto; border-radius: 5px; background-color: rgb(108, 155, 243); color: black; padding: 5px;}
     input[type=submit]:hover { background-color: darkblue; color: #fff;}
   
-  fieldset.contact {display: flex; color: white; border-radius: 20px; max-width:400px; margin: 10px auto; background-color: rgb(53, 55, 56); font-family: sans-serif; text-align:left;}
+  fieldset.contact {display: flex; color: white; border-radius: 20px; max-width:400px; margin: 10px auto; background-color: rgb(7, 65, 92); font-family: sans-serif; text-align:left;}
   fieldset.contact textarea {height: 150px;}
 
   .map {margin-top: 35px; }
